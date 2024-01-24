@@ -17,7 +17,7 @@ public class OrderController : Controller
     {
         _mediator = mediator;
     }
-
+    //mediater pattern userd here
     [HttpGet]
     public async Task<IActionResult> MyOrders()
     {
